@@ -59,7 +59,7 @@ const SignUp = () => {
               type="text"
               id="FirstName"
               name="first_name"
-              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+              className="mt-1 p-3 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
             />
           </div>
 
@@ -75,7 +75,7 @@ const SignUp = () => {
               type="text"
               id="LastName"
               name="last_name"
-              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+              className="mt-1 p-3 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
             />
           </div>
 
@@ -88,7 +88,7 @@ const SignUp = () => {
               type="email"
               id="Email"
               name="email"
-              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+              className="mt-1 p-3 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
             />
           </div>
 
@@ -104,7 +104,7 @@ const SignUp = () => {
               type="password"
               id="Password"
               name="password"
-              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+              className="mt-1 p-3 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
             />
           </div>
 
@@ -120,7 +120,7 @@ const SignUp = () => {
               type="password"
               id="PasswordConfirmation"
               name="password_confirmation"
-              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+              className="mt-1 p-3 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
             />
           </div>
 
@@ -141,7 +141,7 @@ const SignUp = () => {
           </div>
 
           <div className="col-span-6">
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-gray-500 ">
               By creating an account, you agree to our
               <a href="#" className="text-gray-700 underline">
                 terms and conditions

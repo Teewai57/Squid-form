@@ -3,9 +3,9 @@ import SignUp from "./components/SignUp"
 
 const App = () => {
   return (
-    <div className='max-w-6xl'>
+    // <div className='max-w-7xl'>
       <SignUp />
-    </div>
+    // </div>
   )
 }
 
